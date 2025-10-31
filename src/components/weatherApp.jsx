@@ -24,6 +24,8 @@ export default function WeatherApp(){
 
 
     return(
+         <>
+         <h1 className="head">My Mini-Project</h1>
         <div className="WeatherApp">
             <div className="ForFlex">
             <img className="Img" src={weatherImg} alt="weather-info"  />
@@ -32,5 +34,6 @@ export default function WeatherApp(){
             <SearchBox updateInfo={updateInfo}/>
             <DisplayBox ourWeather={weatherInfo}/>
         </div>
+         </>
     )
 }

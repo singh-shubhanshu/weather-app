@@ -1,6 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
+    background-color: #07090F;
 }
 
 
@@ -34,4 +35,11 @@ body{
     border-radius:50%;
     padding: 10px;
     cursor: pointer;
+}
+
+.head{
+    font-family: sans-serif;
+    text-align: center;
+    color: gold;
+    margin-bottom: 0px;
 }
