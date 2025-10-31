@@ -2,7 +2,7 @@ import { useState , useEffect } from "react"
 import SearchBox from "./searchBox"
 import DisplayBox from "./displayBox"
 import "./WeatherApp.css"
-import weatherImg from "../assets/weather-info.jpg"; // <- imported
+import weatherImg from "../assets/weather-info-temp.jpg";
 
 
 export default function WeatherApp(){
